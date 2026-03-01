@@ -1,0 +1,44 @@
+java program
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        long L = sc.nextLong();
+        long B = sc.nextLong();
+        long area = L * B;
+        System.out.println(area);
+    }
+}
+
+reverse a number:
+import java.util.Scanner;
+public  class Main{
+      public static void main(String args[]){
+              Scanner sc=new Scanner(System.in);
+              int n=sc.nextInt();
+              int reverse=0;
+              while( n!=0){
+                     int remainder=n%10;
+                     reverse+=10 * remainder;
+                     n=n/10;
+              }
+              System.out.println(reverse);
+      }
+}
+
+
+
+import java.util.Scanner;
+public  class Main{
+      public satic void main(String args[]){
+              Scanner sc=new Scanner(System.in);
+              int t=sc.nextInt();
+              for (int i=0; i<n; i++){
+                   int n=sc.nextInt();
+                   int x=sc.nextInt();
+                   int buy=n - x /4;
+                   System.out.println(buy);
+               }
+      }
+}
